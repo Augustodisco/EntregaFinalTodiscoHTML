@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website"> 
@@ -12,29 +13,54 @@
     <title>Colegio Augusto Eduardo Todisco</title>
 </head>
 <body>
-    <nav>
-        <ul class="nav-bar">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="paginas/login.html">Login</a></li>            
-            <li>Contacto</a></li>
-            <li><a href="docentes.html">Cuerpo Docente</a></li>
-            <li><a href="ubicación.html">Ubicación</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li><img src="../assets/imagenes/AugustoTodisco.jpg" width="80" height="80"></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>            
+                <li>Contacto</li>
+                <li><a href="docentes.html">Cuerpo Docente</a></li>
+                <li><a href="historia.html">Historia</a></li>
+            </ul>
+        </nav>
+   </header>
 
-    <div class="grid-container">
+    <div align="center">
         <section class="Inscripción">
+            <H1>UNITE A UNA GRAN EXPERIENCIA PARA TU HIJ@</H1>
             <form>
                 <label for="Nombre">Nombre:</label><br>
                 <input type="text" id="nombre" name="nombre"><br>
                 <label for="Apellido">Apellido:</label><br>
                 <input type="text" id="Apellido" name="Apellido"><br><br>
+                <label for="DNI">Documento</label><br>
+                <input type="text" name="DNI" id="DNI"><br><br>
                 <label for="Edad">Edad</label><br>
                 <input type="text" name="Edad" id="Edad"><br><br>
-                <input type="submit" value="ENIUAR">
+                <label for="Turno">Turno</label><br>
+                <input type="text" name="Turno" id="Turno"><br><br>
+                <label for="Pago">Método de pago (tarjeta)</label><br>
+                <p> Visa <input type="radio" name=""></p>
+                <p> Mastercard <input type="radio" name=""></p>
+                <p> Maestro <input type="radio" name=""></p>
+                <p>
+                    <p> COMENTARIOS ADICIONALES </p>
+                    <textarea cols="50" rows="10"></textarea><br>
+                </p>
+                <input type="submit" value="ENVIAR">
               </form> 
         </section>
     </div>
-    
+
+    <footer>
+        <p>&copy; Copyright- Colegio Augusto Eduardo Todisco- 2022</p>
+        <p>Echeverría 2020, Belgrano, Ciudad de Buenos Aires.</p>
+        <a href="https://www.facebook.com/"> <img src="../assets/imagenes/facebook.webp" alt=" Facebook Icon " style="height:70px; width:70px;">  </a> 
+        <a href="https://www.instagram.com/"> <img src="../assets/imagenes/Telegram.jpg" alt=" Telegram icon" style="height:70px; width:70px;">  </a> 
+        <a href="https://twitter.com/?lang=es"> <img src="../assets/imagenes/Twitter.webp" alt=" Twitter icon" style="height:70px; width:70px;">  </a>
+    </footer>
+
+
 </body>
 </html>
