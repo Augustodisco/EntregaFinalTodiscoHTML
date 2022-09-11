@@ -81,12 +81,7 @@ header h1 {
   color: #4c00ff;}
 
 
-/*historia*/
 
-.historia{
-    font-size: 20px;
-
-}
 
 /* Footer */
 
@@ -96,6 +91,13 @@ footer {
   height: 100px;
   padding: 50px 0 0 0;
   text-align: center;
+}
+
+/*historia*/
+
+.historia{
+    font-size: 20px;
+
 }
 
 
