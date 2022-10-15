@@ -294,3 +294,31 @@ footer {
     left: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/*Media queries*/
+@media only screen and (min-width:100px) and (max-width:560px) {
+  .imagen{
+    height: 200px;
+    width: 200px;
+  }
+
+  .imagenprimario{
+    height: 200px;
+    width: 270px;
+  }
+
+  .imagensecundario{
+    height: 200px;
+    width: 280px;
+  }
+
+  .login-box{
+    width:270px;
+    height:330px;
+  }
+
+
+
+
+
+}
