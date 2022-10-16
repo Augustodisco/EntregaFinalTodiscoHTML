@@ -31,7 +31,19 @@ header h1 {
 }
 
 /*Grilla */
-.grid-container {
+.grid-container{
+  display: grid;
+  margin: 40px 0 40px 0;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 200px);
+  gap: 1px 1px;
+  text-align: center;
+  justify-content: stretch;
+  font-size: 1.5rem;
+  grid-template-areas: "contenido contenido contenido contenido" "contenido2 contenido2 contenido3 contenido4" "contenido5 contenido6 contenido7 contenido4";
+}
+
+.grid-containerlogin{
   display: grid;
   margin: 40px 0 40px 0;
   grid-template-columns: repeat(4, 25%);
@@ -315,10 +327,20 @@ footer {
   .login-box{
     width:270px;
     height:330px;
+    
+  }
+  
+  .grid-container{
+    display:block;
+  }
+  
+  .grid-containerlogin{
+    display:flexbox;
   }
 
+  
 
-
+  
 
 
 }
